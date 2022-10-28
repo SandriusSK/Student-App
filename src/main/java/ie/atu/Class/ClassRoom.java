@@ -11,7 +11,7 @@ public class ClassRoom {
     public ClassRoom(String name, String email) {
         this.name = name;
         this.email = email;
-        this.course = course;
+
     }
 
     public String getName() {
