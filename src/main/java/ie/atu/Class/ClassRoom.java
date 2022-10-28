@@ -6,9 +6,6 @@ public class ClassRoom {
     private String course;
 
     public ClassRoom() {
-        this.name = 0;
-        this.email = 0;
-        this.course = 0;
     }
 
     public ClassRoom(String name, String email) {
