@@ -18,6 +18,11 @@ public class StudentApp {
         studentRect.setEmail(email);
         System.out.println("You entered : " + studentRect.getEmail());
 
+        System.out.println("Please enter student course");
+        String course = input.nextLine();
+        studentRect.setCourse(course);
+        System.out.println("You entered : " + studentRect.getCourse());
+
         //Created second instance of name
         ClassRoom studentRect2 = new ClassRoom();
         System.out.println("Please enter second student name");
@@ -30,5 +35,10 @@ public class StudentApp {
         studentRect2.setEmail(email2);
         System.out.println("You entered : " + studentRect2.getEmail());
 
+        System.out.println("Please enter second student course");
+        String course2 = input.nextLine();
+        studentRect.setCourse(course2);
+        System.out.println("You entered : " + studentRect2.getCourse());
+        ;
     }
 }
